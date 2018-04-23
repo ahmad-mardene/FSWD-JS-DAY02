@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>Mathmatics <input id="math" type="number" name="math" value=""></label>
+	<label>Mathmatics <input id="physics" type="number" name="physics" value=""></label>
+	<label>Mathmatics <input id="english" type="number" name="english" value=""></label> <hr>
+	<label>Result<input id="result" type="number"></label>
+	<button onclick="calculateSum()">calculate</button>
+
+	<script type="text/javascript">
+		function calculateSum(){
+			var math = parseInt(document.getElementById('math').value);
+			var physics = parseInt(document.getElementById('physics').value);
+			var english = parseInt(document.getElementById('english').value);
+			var result = document.getElementById('result');
+			document.write( math + physics + english);
+			console.log( math/3 + physics/3 + english/3);
+
+		}
+	</script>
+
+
+</body>
+</html>
