@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="demo1"></p> 
+	<p id="demo2"></p>
+
+
+
+<script>
+function area(width, height) {
+    return width * height;
+}
+document.getElementById("demo1").innerHTML = "the area of the box is" + window.area(7, 2);
+
+function valume(width, height, depth) {
+    return width * height * depth;
+}
+
+document.getElementById("demo2").innerHTML = "the volume of the box is" + window.valume(7, 2, 5); 
+
+</script>
+
+</body>
+</html>
